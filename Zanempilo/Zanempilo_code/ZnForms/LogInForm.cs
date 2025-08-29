@@ -19,9 +19,9 @@ namespace ZnForms
 
         private void btnLogIn_Click(object sender, EventArgs e)
         {
-            DonationsForm DonationsForm = new DonationsForm();
-            DonationsForm.Show();
-            this.Hide();
+            Menu Menu = new Menu();
+            Menu.Show();
+            this.Close();
         }
     }
 }
